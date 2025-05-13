@@ -20,10 +20,9 @@ A lightweight and responsive quiz application built with **HTML**, **JavaScript*
 ## 🚀 How to Run
 
 1. **Clone or download** the repository:
-   ```bash
-   git clone https://github.com/your-username/quiz-app.git
+   git clone https://github.com/Vibuddha94/quiz-web-app.git
    cd quiz-app
-   ```
+   
 
 2. **Open the app**:
    - Double-click `index.html` to open it in your browser.
