@@ -4,7 +4,7 @@ import { validateName } from './validation/validation.js';
 //Validate Name Input
 window.handleKeyUp = (value) => {
     if(!validateName(value)){
-        document.getElementById("warning").innerText = "Input valid name (Ex: John)"
+        document.getElementById("warning").innerText = "Input valid name characters between 4-30"
     } else {
         document.getElementById("warning").innerText = "";
     }
