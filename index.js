@@ -13,7 +13,7 @@ window.handleKeyUp = (value) => {
 window.start = () => {
     let name = document.getElementById('name').value;
     if(!validateName(name)){
-        
+        alert("Please enter a valid name..")
     } else {
          window.location.href = `main.html?name=${encodeURIComponent(name)}`
     }
