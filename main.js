@@ -56,6 +56,6 @@ function timer() {
     }
     const timerEliment = document.getElementById("time");
     let seconds = startSeconds < 10 ? '0' + startSeconds : startSeconds;
-    timerEliment.innerText = count < questions.length || startSeconds < 6 ? `00:${seconds}` : '';
+    timerEliment.innerText = count <= questions.length || startSeconds < 6 ? `00:${seconds}` : '';
     startSeconds--;
 }
